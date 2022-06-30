@@ -20,8 +20,7 @@ public class JobInfo {
     private String jobName;
     private String jobAddr;
     private String jobInfo;
-    private Integer salaryMin;
-    private Integer salaryMax;
+    private String salary;
     private String url;
     private String time;
 
@@ -81,20 +80,12 @@ public class JobInfo {
         this.jobInfo = jobInfo;
     }
 
-    public Integer getSalaryMin() {
-        return salaryMin;
+    public String getSalary() {
+        return salary;
     }
 
-    public void setSalaryMin(Integer salaryMin) {
-        this.salaryMin = salaryMin;
-    }
-
-    public Integer getSalaryMax() {
-        return salaryMax;
-    }
-
-    public void setSalaryMax(Integer salaryMax) {
-        this.salaryMax = salaryMax;
+    public void setSalary(String salary) {
+        this.salary = salary;
     }
 
     public String getUrl() {
